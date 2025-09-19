@@ -9,10 +9,8 @@ body {
 .header {
   background-color: #011e29;
   color: white;
-  text-align: center;   /* ✅ Cypress check will pass */
+  text-align: center;  /* ✅ now applies to <span> */
   padding: 20px;
-  display: block;       /* ✅ makes text-align apply correctly */
-  width: 100%;
 }
 
 /* Main container layout */
@@ -27,7 +25,7 @@ body {
 .latest-news-section {
   background-color: white;
   padding: 20px;
-  width: 200px;          /* ✅ fixed width */
+  width: 200px;
   border-radius: 10px;
 }
 
@@ -35,7 +33,7 @@ body {
 .main-article-section {
   background-color: white;
   padding: 20px;
-  width: 500px;          /* ✅ fixed width */
+  width: 500px;
   border-radius: 10px;
   text-align: center;
 }
@@ -44,10 +42,9 @@ body {
 .pictorial-news-section {
   background-color: white;
   padding: 20px;
-  width: 200px;          /* ✅ fixed width */
+  width: 200px;
   border-radius: 10px;
-  text-align: center;    /* ✅ Cypress check will pass */
-  display: block;        /* ✅ ensures alignment works */
+  text-align: center;  /* ✅ applies to <span> now */
 }
 
 .pictorial-news-section img {
